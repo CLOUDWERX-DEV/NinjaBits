@@ -7,7 +7,7 @@ import { DownloadQueue } from "../download/queue";
 import { loadQueue, loadSeeds } from "../download/persist";
 import { loadHistory } from "../download/history";
 import { reconcileQueue } from "../download/reconcile";
-import { parseMagnet } from "../sources/magnet";
+import { parseInput } from "../sources/magnet";
 import { magnetFromTorrentFile } from "../sources/torrentFile";
 import { readClipboard, writeClipboard } from "../util/clipboard";
 import { cleanText, truncate } from "../util/format";
@@ -106,7 +106,7 @@ export function App({
       setConfigState(cfg);
       setQueue(q);
       const launch = initialMagnet
-        ? parseMagnet(initialMagnet)
+        ? parseInput(initialMagnet)
         : initialTorrent
           ? await magnetFromTorrentFile(initialTorrent)
           : null;
@@ -240,7 +240,7 @@ export function App({
     (raw: string) => {
       const q = raw.trim();
       if (q) {
-        const magnet = parseMagnet(q);
+        const magnet = parseInput(q);
         if (magnet) {
           startDownload({
             id: magnet.infoHash,
@@ -266,7 +266,7 @@ export function App({
       return;
     }
     const found = text.match(/magnet:\?xt=urn:btih:[^\s"'<>]+/i)?.[0];
-    const magnet = found ? parseMagnet(found) : null;
+    const magnet = parseInput(found ?? text);
     if (magnet) {
       startDownload({ id: magnet.infoHash, name: magnet.name, magnet: magnet.magnet });
       setView("browser");

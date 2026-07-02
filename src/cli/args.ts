@@ -1,3 +1,5 @@
+import { isInfoHash } from "../sources/magnet";
+
 export type CliCommand =
   | { kind: "version" }
   | { kind: "help" }
@@ -11,6 +13,7 @@ export function parseCliArgs(argv: string[]): CliCommand {
   if (a === "--version" || a === "-v") return { kind: "version" };
   if (a === "--help" || a === "-h") return { kind: "help" };
   if (/^magnet:\?/i.test(a)) return { kind: "run", initialMagnet: a };
+  if (isInfoHash(a)) return { kind: "run", initialMagnet: a };
   if (/\.torrent$/i.test(a)) return { kind: "run", initialTorrent: a };
   return { kind: "invalid", arg: a };
 }
