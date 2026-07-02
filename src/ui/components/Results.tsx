@@ -10,7 +10,7 @@ import { getSource, SOURCES } from "../../sources/registry";
 import { wrapStep, windowStart, resultsPanelOuter } from "../move";
 import { sortResults, nextSort, sortLabel, sortArrow, type Sort, type SortField } from "../sort";
 import { COLOR, GUTTER, ICON, sourceStyle } from "../theme";
-import { cleanText, formatBytes, formatRelative, truncate } from "../../util/format";
+import { cleanText, formatBytes, formatCount, formatRelative, truncate } from "../../util/format";
 import type { Source, TorrentResult } from "../../sources/types";
 
 type Mode = "list" | "search" | "detail";
@@ -389,7 +389,9 @@ export function Results() {
                           </Box>
                           <Box width={9} flexShrink={0} marginLeft={1} justifyContent="flex-end">
                             <Text color={r.seeders > 0 ? COLOR.good : undefined} dimColor={r.seeders === 0}>
-                              {r.seeders || r.leechers ? `${r.seeders}:${r.leechers}` : "-"}
+                              {r.seeders || r.leechers
+                                ? `${formatCount(r.seeders)}:${formatCount(r.leechers)}`
+                                : "-"}
                             </Text>
                           </Box>
                         </>
