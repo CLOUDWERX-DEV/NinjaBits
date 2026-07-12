@@ -10,14 +10,10 @@ export const SPLASH_LOGO_LINES: readonly string[] = [
 export const SPLASH_LOGO_WIDTH = Math.max(...SPLASH_LOGO_LINES.map((l) => [...l].length));
 
 export const COMPACT_LOGO_LINES: readonly string[] = [
-  "888888ba  oo          oo           888888ba  oo   dP            ",
-  "88    `8b                          88    `8b      88            ",
-  "88     88 dP 88d888b. dP .d8888b. a88aaaa8P' dP d8888P .d8888b. ",
-  "88     88 88 88'  `88 88 88'  `88  88   `8b. 88   88   Y8ooooo. ",
-  "88     88 88 88    88 88 88.  .88  88    .88 88   88         88 ",
-  "dP     dP dP dP    dP 88 `88888P8  88888888P dP   dP   `88888P' ",
-  "                      88                                        ",
-  "                      dP                                        ",
+  "▗▖  ▗▖▗▄▄▄▖▗▖  ▗▖   ▗▖ ▗▄▖ ▗▄▄▖ ▗▄▄▄▖▗▄▄▄▖▗▄▄▖",
+  "▐▛▚▖▐▌  █  ▐▛▚▖▐▌   ▐▌▐▌ ▐▌▐▌ ▐▌  █    █ ▐▌   ",
+  "▐▌ ▝▜▌  █  ▐▌ ▝▜▌   ▐▌▐▛▀▜▌▐▛▀▚▖  █    █  ▝▀▚▖",
+  "▐▌  ▐▌▗▄█▄▖▐▌  ▐▌▗▄▄▞▘▐▌ ▐▌▐▙▄▞▘▗▄█▄▖  █ ▗▄▄▞▘",
 ];
 
 export const COMPACT_LOGO_WIDTH = Math.max(...COMPACT_LOGO_LINES.map((l) => [...l].length));
