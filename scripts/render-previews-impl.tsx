@@ -167,7 +167,7 @@ save(
         <Text dimColor> quit</Text>
       </Text>
     </Box>
-    <Box marginTop={2}>
+    <Box marginTop={1}>
       <Text dimColor>
         v{VERSION}  ·  by <Text color={COLOR.accent} bold>CLOUDWERX LAB</Text>
       </Text>
