@@ -10,7 +10,7 @@ export const SPLASH_LOGO_LINES: readonly string[] = [
 export const SPLASH_LOGO_WIDTH = Math.max(...SPLASH_LOGO_LINES.map((l) => [...l].length));
 
 export const COMPACT_LOGO_LINES: readonly string[] = [
-  "▄  ▄ ▄ ▄  ▄  ▄  ▄  ▄▄  ▄ ▄▄▄ ▄▄▄",
+  "▄  ▄ ▄ ▄  ▄  ▄  ▄ ▄▄  ▄ ▄▄▄ ▄▄▄ ",
   "█▀■█ ▄ █▀■█  █ █■█ █■▄ ▄  █  ▀■▄",
   "▀  ▀ ▀ ▀  ▀ ▀▀ ▀ ▀ ▀▀  ▀  ▀  ▀▀▀",
 ];

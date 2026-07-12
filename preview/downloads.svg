@@ -11,15 +11,15 @@
     <rect x="137.6" y="79" width="9.6" height="11" fill="#2a8bff"/>
     <rect x="166.4" y="79" width="9.6" height="11" fill="#459fff"/>
     <rect x="195.2" y="79" width="9.6" height="11" fill="#65b4ff"/>
+    <rect x="214.4" y="79" width="9.6" height="11" fill="#7ac2ff"/>
     <rect x="224" y="79" width="9.6" height="11" fill="#85c9ff"/>
-    <rect x="233.6" y="79" width="9.6" height="11" fill="#8fd0ff"/>
-    <rect x="262.4" y="79" width="9.6" height="11" fill="#aedfff"/>
+    <rect x="252.8" y="79" width="9.6" height="11" fill="#a4dbff"/>
+    <rect x="272" y="79" width="9.6" height="11" fill="#b8e3ff"/>
     <rect x="281.6" y="79" width="9.6" height="11" fill="#c3e7ff"/>
     <rect x="291.2" y="79" width="9.6" height="11" fill="#cdebff"/>
-    <rect x="300.8" y="79" width="9.6" height="11" fill="#d7efff"/>
+    <rect x="310.4" y="79" width="9.6" height="11" fill="#e1f3ff"/>
     <rect x="320" y="79" width="9.6" height="11" fill="#ebf7ff"/>
     <rect x="329.6" y="79" width="9.6" height="11" fill="#f5fbff"/>
-    <rect x="339.2" y="79" width="9.6" height="11" fill="#ffffff"/>
     <rect x="41.6" y="90" width="9.6" height="22" fill="#0052ff"/>
     <rect x="51.2" y="90" width="9.6" height="11" fill="#0458ff"/>
     <text x="60.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#085dff" font-weight="600">■</text>
