@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.2] - 2026-07-12
+
+### Added
+- Added dynamic version number display directly centered in the terminal UI splash screen footer.
+
+### Changed
+- Refactored Nix derivation settings to read package version dynamically from `package.json`.
+
 ## [1.4.1] - 2026-07-12
 
 ### Added
