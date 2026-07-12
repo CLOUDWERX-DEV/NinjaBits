@@ -5,6 +5,7 @@ import { SPLASH_LOGO_WIDTH } from "../logo";
 import { useStore } from "../store";
 import { sourcesByGroup } from "../../sources/registry";
 import { COLOR, ICON } from "../theme";
+import { VERSION } from "../../version";
 
 const groups = sourcesByGroup().map((g) => g.group.toLowerCase());
 const line1 = groups.slice(0, 7).join(`  ${ICON.dot}  `);
@@ -66,6 +67,11 @@ export function Splash() {
           <Text dimColor>{`  ${ICON.dot}  `}</Text>
           <Text color={COLOR.alt}>^c</Text>
           <Text dimColor> quit</Text>
+        </Text>
+      </Box>
+      <Box marginTop={2}>
+        <Text dimColor>
+          v{VERSION}  ·  by <Text color={COLOR.accent} bold>CLOUDWERX LAB</Text> <Text dimColor>(cloudwerxlab.com)</Text>
         </Text>
       </Box>
     </Box>

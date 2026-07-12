@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="preview/splash.svg?v=1.6.6" alt="NinjaBits" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/splash.svg?v=1.6.7" alt="NinjaBits" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@ Finding torrents today is a cesspool of spam, malicious redirects, fake download
 It is a zero-configuration, terminal-native torrent searcher, downloader, and client built to run in total stealth. No browser tabs. No ads. No malware traps. Just pure torrent search and instant retrieval straight from your command line.
 
 <p align="center">
-  <img src="preview/browse.svg?v=1.6.6" alt="NinjaBits Browse View" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/browse.svg?v=1.6.7" alt="NinjaBits Browse View" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
 ## The Arsenal
@@ -102,7 +102,7 @@ Active downloads sit at the top of the pane with live progress, speed, and ETA. 
 Downloads seed back to the network automatically. You can pause, resume, or stop seeding any item in the **Seeding** panel.
 
 <p align="center">
-  <img src="preview/downloads.svg?v=1.6.6" alt="NinjaBits Downloads View" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/downloads.svg?v=1.6.7" alt="NinjaBits Downloads View" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
 ---

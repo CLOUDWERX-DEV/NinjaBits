@@ -7,6 +7,7 @@ import { Box, Text } from "ink";
 import { StoreContext, type Store } from "../src/ui/store";
 import { COLOR, ICON, SOURCE_STYLE } from "../src/ui/theme";
 import { Logo } from "../src/ui/components/Logo";
+import { VERSION } from "../src/version";
 import { Rule } from "../src/ui/components/Rule";
 import { Footer } from "../src/ui/components/Footer";
 import { Sidebar, RAIL_WIDTH } from "../src/ui/components/Sidebar";
@@ -141,7 +142,7 @@ const line2 = groups.slice(7).join(`  ${ICON.dot}  `);
 save(
   "splash",
   makeStore({ view: "splash", region: "content" }),
-  <Box height={18} flexDirection="column" justifyContent="center" alignItems="center" width={COLS}>
+  <Box height={22} flexDirection="column" justifyContent="center" alignItems="center" width={COLS}>
     <Logo type="splash" />
     <Box marginTop={2}>
       <Text color={COLOR.text}>Search & download torrents in total stealth—like a Ninja.</Text>
@@ -164,6 +165,11 @@ save(
         <Text dimColor>{`  ${ICON.dot}  `}</Text>
         <Text color={COLOR.alt}>^c</Text>
         <Text dimColor> quit</Text>
+      </Text>
+    </Box>
+    <Box marginTop={2}>
+      <Text dimColor>
+        v{VERSION}  ·  by <Text color={COLOR.accent} bold>CLOUDWERX LAB</Text> <Text dimColor>(cloudwerxlab.com)</Text>
       </Text>
     </Box>
   </Box>,
