@@ -4,114 +4,88 @@
   <rect x="0.5" y="0.5" width="831" height="451" rx="14" fill="none" stroke="#2d2b31" stroke-width="1"/>
   <text x="416" y="23" text-anchor="middle" font-family='ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace' font-size="13" fill="#8a8a8a">NinjaBits</text>
   <g font-family='ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace' font-size="16" fill="#ddd8ea">
-    <text x="41.6" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0052ff" font-weight="600">░</text>
-    <rect x="51.2" y="68" width="9.6" height="22" fill="#0457ff"/>
-    <rect x="60.8" y="68" width="9.6" height="11" fill="#085cff"/>
-    <rect x="70.4" y="68" width="9.6" height="22" fill="#0b61ff"/>
-    <text x="80" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0f66ff" font-weight="600">░</text>
-    <rect x="89.6" y="68" width="9.6" height="11" fill="#136bff"/>
-    <rect x="99.2" y="68" width="9.6" height="22" fill="#1770ff"/>
-    <rect x="108.8" y="68" width="9.6" height="11" fill="#1a75ff"/>
-    <text x="118.4" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1e7aff" font-weight="600">░</text>
-    <rect x="128" y="68" width="9.6" height="22" fill="#2280ff"/>
-    <rect x="137.6" y="68" width="9.6" height="11" fill="#2685ff"/>
-    <rect x="147.2" y="68" width="9.6" height="22" fill="#298aff"/>
-    <text x="156.8" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#2d8fff" font-weight="600">░</text>
-    <rect x="166.4" y="68" width="9.6" height="11" fill="#3595ff"/>
-    <rect x="176" y="68" width="9.6" height="11" fill="#3f9bff"/>
-    <rect x="185.6" y="68" width="9.6" height="22" fill="#48a1ff"/>
-    <text x="195.2" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#51a7ff" font-weight="600">░</text>
-    <rect x="204.8" y="68" width="9.6" height="22" fill="#5badff"/>
-    <rect x="214.4" y="68" width="9.6" height="11" fill="#64b3ff"/>
-    <rect x="224" y="68" width="9.6" height="22" fill="#6eb9ff"/>
-    <text x="233.6" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#77c0ff" font-weight="600">░</text>
-    <rect x="243.2" y="68" width="9.6" height="22" fill="#81c6ff"/>
-    <rect x="252.8" y="68" width="9.6" height="11" fill="#8accff"/>
-    <rect x="262.4" y="79" width="9.6" height="11" fill="#93d2ff"/>
-    <text x="272" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#9dd8ff" font-weight="600">░</text>
-    <rect x="281.6" y="68" width="9.6" height="11" fill="#a6dbff"/>
-    <rect x="291.2" y="68" width="9.6" height="22" fill="#afdfff"/>
-    <rect x="300.8" y="68" width="9.6" height="11" fill="#b8e2ff"/>
-    <text x="310.4" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c1e6ff" font-weight="600">░</text>
-    <rect x="320" y="68" width="9.6" height="11" fill="#c9eaff"/>
-    <rect x="329.6" y="68" width="9.6" height="22" fill="#d2edff"/>
-    <rect x="339.2" y="68" width="9.6" height="11" fill="#dbf1ff"/>
-    <text x="348.8" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#e4f4ff" font-weight="600">░</text>
-    <rect x="358.4" y="68" width="9.6" height="22" fill="#edf8ff"/>
-    <rect x="368" y="68" width="9.6" height="11" fill="#f6fbff"/>
-    <rect x="377.6" y="68" width="9.6" height="11" fill="#ffffff"/>
-    <text x="41.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0052ff" font-weight="600">░</text>
-    <rect x="51.2" y="90" width="9.6" height="22" fill="#0457ff"/>
-    <text x="60.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#085cff" font-weight="600">░</text>
-    <rect x="70.4" y="90" width="9.6" height="22" fill="#0b61ff"/>
-    <text x="80" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0f66ff" font-weight="600">░</text>
-    <text x="89.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#136bff" font-weight="600">░</text>
-    <rect x="99.2" y="90" width="9.6" height="22" fill="#1770ff"/>
-    <text x="108.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1a75ff" font-weight="600">░</text>
-    <text x="118.4" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1e7aff" font-weight="600">░</text>
-    <rect x="128" y="90" width="9.6" height="22" fill="#2280ff"/>
-    <text x="137.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#2685ff" font-weight="600">░</text>
-    <rect x="147.2" y="90" width="9.6" height="22" fill="#298aff"/>
-    <text x="156.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#2d8fff" font-weight="600">░</text>
-    <text x="166.4" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#3595ff" font-weight="600">░</text>
-    <text x="176" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#3f9bff" font-weight="600">░</text>
-    <rect x="185.6" y="90" width="9.6" height="22" fill="#48a1ff"/>
-    <text x="195.2" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#51a7ff" font-weight="600">░</text>
-    <rect x="204.8" y="90" width="9.6" height="22" fill="#5badff"/>
-    <rect x="214.4" y="90" width="9.6" height="11" fill="#64b3ff"/>
-    <rect x="224" y="90" width="9.6" height="22" fill="#6eb9ff"/>
-    <text x="233.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#77c0ff" font-weight="600">░</text>
-    <rect x="243.2" y="90" width="9.6" height="22" fill="#81c6ff"/>
-    <rect x="252.8" y="90" width="9.6" height="11" fill="#8accff"/>
-    <rect x="262.4" y="101" width="9.6" height="11" fill="#93d2ff"/>
-    <text x="272" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#9dd8ff" font-weight="600">░</text>
-    <text x="281.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#a6dbff" font-weight="600">░</text>
-    <rect x="291.2" y="90" width="9.6" height="22" fill="#afdfff"/>
-    <text x="300.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#b8e2ff" font-weight="600">░</text>
-    <text x="310.4" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c1e6ff" font-weight="600">░</text>
-    <text x="320" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c9eaff" font-weight="600">░</text>
-    <rect x="329.6" y="90" width="9.6" height="22" fill="#d2edff"/>
-    <text x="339.2" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#dbf1ff" font-weight="600">░</text>
-    <text x="348.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#e4f4ff" font-weight="600">░</text>
-    <rect x="358.4" y="90" width="9.6" height="11" fill="#edf8ff"/>
-    <rect x="368" y="90" width="9.6" height="11" fill="#f6fbff"/>
-    <rect x="377.6" y="90" width="9.6" height="22" fill="#ffffff"/>
-    <text x="41.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0052ff" font-weight="600">░</text>
-    <rect x="51.2" y="112" width="9.6" height="11" fill="#0457ff"/>
-    <text x="60.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#085cff" font-weight="600">░</text>
-    <rect x="70.4" y="112" width="9.6" height="11" fill="#0b61ff"/>
-    <text x="80" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0f66ff" font-weight="600">░</text>
-    <rect x="89.6" y="112" width="9.6" height="11" fill="#136bff"/>
-    <rect x="99.2" y="112" width="9.6" height="11" fill="#1770ff"/>
-    <rect x="108.8" y="112" width="9.6" height="11" fill="#1a75ff"/>
-    <text x="118.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1e7aff" font-weight="600">░</text>
-    <rect x="128" y="112" width="9.6" height="11" fill="#2280ff"/>
-    <text x="137.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#2685ff" font-weight="600">░</text>
-    <rect x="147.2" y="112" width="9.6" height="11" fill="#298aff"/>
-    <text x="156.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#2d8fff" font-weight="600">░</text>
-    <rect x="166.4" y="112" width="9.6" height="11" fill="#3595ff"/>
-    <rect x="176" y="112" width="9.6" height="11" fill="#3f9bff"/>
-    <text x="185.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#48a1ff" font-weight="600">░</text>
-    <text x="195.2" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#51a7ff" font-weight="600">░</text>
-    <rect x="204.8" y="112" width="9.6" height="11" fill="#5badff"/>
-    <text x="214.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#64b3ff" font-weight="600">░</text>
-    <rect x="224" y="112" width="9.6" height="11" fill="#6eb9ff"/>
-    <text x="233.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#77c0ff" font-weight="600">░</text>
-    <rect x="243.2" y="112" width="9.6" height="11" fill="#81c6ff"/>
-    <rect x="252.8" y="112" width="9.6" height="11" fill="#8accff"/>
-    <text x="262.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#93d2ff" font-weight="600">░</text>
-    <text x="272" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#9dd8ff" font-weight="600">░</text>
-    <rect x="281.6" y="112" width="9.6" height="11" fill="#a6dbff"/>
-    <rect x="291.2" y="112" width="9.6" height="11" fill="#afdfff"/>
-    <rect x="300.8" y="112" width="9.6" height="11" fill="#b8e2ff"/>
-    <text x="310.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c1e6ff" font-weight="600">░</text>
-    <text x="320" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c9eaff" font-weight="600">░</text>
-    <rect x="329.6" y="112" width="9.6" height="11" fill="#d2edff"/>
-    <text x="339.2" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#dbf1ff" font-weight="600">░</text>
-    <text x="348.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#e4f4ff" font-weight="600">░</text>
-    <rect x="358.4" y="112" width="9.6" height="11" fill="#edf8ff"/>
-    <rect x="368" y="112" width="9.6" height="11" fill="#f6fbff"/>
-    <rect x="377.6" y="112" width="9.6" height="11" fill="#ffffff"/>
+    <text x="51.2" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0355ff" font-weight="600">_</text>
+    <text x="118.4" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#156eff" font-weight="600">_</text>
+    <text x="156.8" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1f7cff" font-weight="600">_</text>
+    <text x="243.2" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#429dff" font-weight="600">_</text>
+    <text x="291.2" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#63b2ff" font-weight="600">_</text>
+    <text x="300.8" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#69b7ff" font-weight="600">_</text>
+    <text x="348.8" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#8accff" font-weight="600">_</text>
+    <text x="358.4" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#90d0ff" font-weight="600">_</text>
+    <text x="368" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#97d4ff" font-weight="600">_</text>
+    <text x="406.4" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#afdfff" font-weight="600">_</text>
+    <text x="435.2" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c2e6ff" font-weight="600">_</text>
+    <text x="444.8" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c8e9ff" font-weight="600">_</text>
+    <text x="454.4" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#ceebff" font-weight="600">_</text>
+    <text x="464" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#d4eeff" font-weight="600">_</text>
+    <text x="473.6" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#daf0ff" font-weight="600">_</text>
+    <text x="502.4" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#edf8ff" font-weight="600">_</text>
+    <text x="512" y="84" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#f3faff" font-weight="600">_</text>
+    <text x="41.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0052ff" font-weight="600">|</text>
+    <text x="60.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0559ff" font-weight="600">|</text>
+    <text x="70.4" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#085cff" font-weight="600">\</text>
+    <text x="89.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0d63ff" font-weight="600">|</text>
+    <text x="108.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#126aff" font-weight="600">|</text>
+    <text x="128" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1771ff" font-weight="600">|</text>
+    <text x="147.2" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1c78ff" font-weight="600">|</text>
+    <text x="166.4" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#227fff" font-weight="600">|</text>
+    <text x="176" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#2483ff" font-weight="600">\</text>
+    <text x="195.2" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#298aff" font-weight="600">|</text>
+    <text x="233.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#3c99ff" font-weight="600">|</text>
+    <text x="252.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#49a2ff" font-weight="600">|</text>
+    <text x="281.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#5caeff" font-weight="600">/</text>
+    <text x="300.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#69b7ff" font-weight="600">/</text>
+    <text x="310.4" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#70bbff" font-weight="600">\</text>
+    <text x="339.2" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#83c7ff" font-weight="600">|</text>
+    <text x="358.4" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#90d0ff" font-weight="600">|</text>
+    <text x="368" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#97d4ff" font-weight="600">_</text>
+    <text x="377.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#9dd8ff" font-weight="600">)</text>
+    <text x="396.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#a9ddff" font-weight="600">|</text>
+    <text x="416" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#b5e2ff" font-weight="600">|</text>
+    <text x="444.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c8e9ff" font-weight="600">|</text>
+    <text x="464" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#d4eeff" font-weight="600">|</text>
+    <text x="492.8" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#e6f5ff" font-weight="600">(</text>
+    <text x="512" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#f3faff" font-weight="600">(</text>
+    <text x="521.6" y="106" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#f9fdff" font-weight="600">`</text>
+    <text x="41.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0052ff" font-weight="600">|</text>
+    <text x="51.2" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0355ff" font-weight="600">_</text>
+    <text x="60.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0559ff" font-weight="600">|</text>
+    <text x="80" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0a60ff" font-weight="600">\</text>
+    <text x="89.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#0d63ff" font-weight="600">|</text>
+    <text x="108.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#126aff" font-weight="600">|</text>
+    <text x="118.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#156eff" font-weight="600">_</text>
+    <text x="128" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1771ff" font-weight="600">|</text>
+    <text x="147.2" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1c78ff" font-weight="600">|</text>
+    <text x="156.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#1f7cff" font-weight="600">_</text>
+    <text x="166.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#227fff" font-weight="600">|</text>
+    <text x="185.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#2786ff" font-weight="600">\</text>
+    <text x="195.2" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#298aff" font-weight="600">|</text>
+    <text x="214.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#2f91ff" font-weight="600">\</text>
+    <text x="224" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#3595ff" font-weight="600">_</text>
+    <text x="233.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#3c99ff" font-weight="600">|</text>
+    <text x="243.2" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#429dff" font-weight="600">_</text>
+    <text x="252.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#49a2ff" font-weight="600">|</text>
+    <text x="272" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#56aaff" font-weight="600">/</text>
+    <text x="281.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#5caeff" font-weight="600">_</text>
+    <text x="291.2" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#63b2ff" font-weight="600">/</text>
+    <text x="300.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#69b7ff" font-weight="600">-</text>
+    <text x="310.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#70bbff" font-weight="600">-</text>
+    <text x="320" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#76bfff" font-weight="600">\</text>
+    <text x="339.2" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#83c7ff" font-weight="600">|</text>
+    <text x="348.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#8accff" font-weight="600">_</text>
+    <text x="358.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#90d0ff" font-weight="600">|</text>
+    <text x="368" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#97d4ff" font-weight="600">_</text>
+    <text x="377.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#9dd8ff" font-weight="600">)</text>
+    <text x="396.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#a9ddff" font-weight="600">|</text>
+    <text x="406.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#afdfff" font-weight="600">_</text>
+    <text x="416" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#b5e2ff" font-weight="600">|</text>
+    <text x="444.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#c8e9ff" font-weight="600">|</text>
+    <text x="454.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#ceebff" font-weight="600">_</text>
+    <text x="464" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#d4eeff" font-weight="600">|</text>
+    <text x="492.8" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#e6f5ff" font-weight="600">_</text>
+    <text x="502.4" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#edf8ff" font-weight="600">)</text>
+    <text x="512" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#f3faff" font-weight="600">_</text>
+    <text x="521.6" y="128" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#f9fdff" font-weight="600">)</text>
     <text x="41.6" y="150" textLength="748.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#334155">──────────────────────────────────────────────────────────────────────────────</text>
     <text x="60.8" y="194" textLength="28.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill-opacity="0.55">All</text>
     <text x="204.8" y="194" textLength="19.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#60a5fa">╭─</text>
@@ -189,78 +163,6 @@
     <text x="579.2" y="414" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#94a3b8">?</text>
     <text x="598.4" y="414" textLength="38.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill-opacity="0.55">Keys</text>
   </g>
-  <rect x="51.2" y="68" width="9.6" height="22" fill="#0457ff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#0457ff;#095aff;#1964ff;#3173ff;#4f86ff;#709bff;#91b1ff;#afc4ff;#c7d3ff;#d7dcff;#dce0ff;#d7dcff;#c7d3ff;#afc4ff;#91b1ff;#709bff;#4f86ff;#3173ff;#1964ff;#095aff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="70.4" y="68" width="9.6" height="22" fill="#0b61ff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#0b61ff;#1064ff;#1f6dff;#367bff;#538dff;#74a1ff;#94b5ff;#b1c6ff;#c9d5ff;#d8deff;#dde1ff;#d8deff;#c9d5ff;#b1c6ff;#94b5ff;#74a1ff;#538dff;#367bff;#1f6dff;#1064ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="99.2" y="68" width="9.6" height="22" fill="#1770ff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#1770ff;#1c73ff;#2a7bff;#4088ff;#5c97ff;#7aa9ff;#99bbff;#b5cbff;#cbd7ff;#d9e0ff;#dee2ff;#d9e0ff;#cbd7ff;#b5cbff;#99bbff;#7aa9ff;#5c97ff;#4088ff;#2a7bff;#1c73ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="128" y="68" width="9.6" height="22" fill="#2280ff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#2280ff;#2782ff;#348aff;#4995ff;#63a3ff;#81b2ff;#9ec1ff;#b8cfff;#cddaff;#dae1ff;#dfe4ff;#dae1ff;#cddaff;#b8cfff;#9ec1ff;#81b2ff;#63a3ff;#4995ff;#348aff;#2782ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="147.2" y="68" width="9.6" height="22" fill="#298aff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#298aff;#2d8cff;#3a93ff;#4f9dff;#68a9ff;#84b7ff;#a1c5ff;#bad2ff;#cedcff;#dbe3ff;#e0e5ff;#dbe3ff;#cedcff;#bad2ff;#a1c5ff;#84b7ff;#68a9ff;#4f9dff;#3a93ff;#2d8cff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="185.6" y="68" width="9.6" height="22" fill="#48a1ff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#48a1ff;#4ca3ff;#57a8ff;#68afff;#7db9ff;#95c4ff;#adcfff;#c3d9ff;#d4e0ff;#dfe5ff;#e3e7ff;#dfe5ff;#d4e0ff;#c3d9ff;#adcfff;#95c4ff;#7db9ff;#68afff;#57a8ff;#4ca3ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="204.8" y="68" width="9.6" height="22" fill="#5badff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#5badff;#5eaeff;#68b3ff;#77b9ff;#8bc2ff;#a0cbff;#b5d4ff;#c8dcff;#d8e3ff;#e1e7ff;#e5e8ff;#e1e7ff;#d8e3ff;#c8dcff;#b5d4ff;#a0cbff;#8bc2ff;#77b9ff;#68b3ff;#5eaeff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="224" y="68" width="9.6" height="22" fill="#6eb9ff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#6eb9ff;#71baff;#7abeff;#87c3ff;#98caff;#aad1ff;#bdd9ff;#cee0ff;#dbe5ff;#e4e8ff;#e7eaff;#e4e8ff;#dbe5ff;#cee0ff;#bdd9ff;#aad1ff;#98caff;#87c3ff;#7abeff;#71baff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="243.2" y="68" width="9.6" height="22" fill="#81c6ff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#81c6ff;#84c7ff;#8bcaff;#96ceff;#a5d3ff;#b5d8ff;#c5deff;#d3e3ff;#dfe7ff;#e6eaff;#e9ebff;#e6eaff;#dfe7ff;#d3e3ff;#c5deff;#b5d8ff;#a5d3ff;#96ceff;#8bcaff;#84c7ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="291.2" y="68" width="9.6" height="22" fill="#afdfff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#afdfff;#b1dfff;#b5e0ff;#bce2ff;#c4e4ff;#cee6ff;#d8e8ff;#e0eaff;#e7ecff;#ecedff;#ededff;#ecedff;#e7ecff;#e0eaff;#d8e8ff;#cee6ff;#c4e4ff;#bce2ff;#b5e0ff;#b1dfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="329.6" y="68" width="9.6" height="22" fill="#d2edff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#d2edff;#d3edff;#d5edff;#d8edff;#ddeeff;#e1eeff;#e6eeff;#eaeeff;#eeefff;#f0efff;#f1efff;#f0efff;#eeefff;#eaeeff;#e6eeff;#e1eeff;#ddeeff;#d8edff;#d5edff;#d3edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="358.4" y="68" width="9.6" height="22" fill="#edf8ff">
-    <animate attributeName="fill" calcMode="discrete" dur="2.4s" values="#edf8ff;#edf8ff;#eef7ff;#eef6ff;#eff5ff;#f0f4ff;#f1f3ff;#f2f2ff;#f3f1ff;#f3f0ff;#f3f0ff;#f3f0ff;#f3f1ff;#f2f2ff;#f1f3ff;#f0f4ff;#eff5ff;#eef6ff;#eef7ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff;#edf8ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="51.2" y="90" width="9.6" height="22" fill="#0457ff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#0457ff;#095aff;#1964ff;#3173ff;#4f86ff;#709bff;#91b1ff;#afc4ff;#c7d3ff;#d7dcff;#dce0ff;#d7dcff;#c7d3ff;#afc4ff;#91b1ff;#709bff;#4f86ff;#3173ff;#1964ff;#095aff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff;#0457ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="70.4" y="90" width="9.6" height="22" fill="#0b61ff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#0b61ff;#1064ff;#1f6dff;#367bff;#538dff;#74a1ff;#94b5ff;#b1c6ff;#c9d5ff;#d8deff;#dde1ff;#d8deff;#c9d5ff;#b1c6ff;#94b5ff;#74a1ff;#538dff;#367bff;#1f6dff;#1064ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff;#0b61ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="99.2" y="90" width="9.6" height="22" fill="#1770ff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#1770ff;#1c73ff;#2a7bff;#4088ff;#5c97ff;#7aa9ff;#99bbff;#b5cbff;#cbd7ff;#d9e0ff;#dee2ff;#d9e0ff;#cbd7ff;#b5cbff;#99bbff;#7aa9ff;#5c97ff;#4088ff;#2a7bff;#1c73ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff;#1770ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="128" y="90" width="9.6" height="22" fill="#2280ff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#2280ff;#2782ff;#348aff;#4995ff;#63a3ff;#81b2ff;#9ec1ff;#b8cfff;#cddaff;#dae1ff;#dfe4ff;#dae1ff;#cddaff;#b8cfff;#9ec1ff;#81b2ff;#63a3ff;#4995ff;#348aff;#2782ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff;#2280ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="147.2" y="90" width="9.6" height="22" fill="#298aff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#298aff;#2d8cff;#3a93ff;#4f9dff;#68a9ff;#84b7ff;#a1c5ff;#bad2ff;#cedcff;#dbe3ff;#e0e5ff;#dbe3ff;#cedcff;#bad2ff;#a1c5ff;#84b7ff;#68a9ff;#4f9dff;#3a93ff;#2d8cff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff;#298aff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="185.6" y="90" width="9.6" height="22" fill="#48a1ff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#48a1ff;#4ca3ff;#57a8ff;#68afff;#7db9ff;#95c4ff;#adcfff;#c3d9ff;#d4e0ff;#dfe5ff;#e3e7ff;#dfe5ff;#d4e0ff;#c3d9ff;#adcfff;#95c4ff;#7db9ff;#68afff;#57a8ff;#4ca3ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff;#48a1ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="204.8" y="90" width="9.6" height="22" fill="#5badff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#5badff;#5eaeff;#68b3ff;#77b9ff;#8bc2ff;#a0cbff;#b5d4ff;#c8dcff;#d8e3ff;#e1e7ff;#e5e8ff;#e1e7ff;#d8e3ff;#c8dcff;#b5d4ff;#a0cbff;#8bc2ff;#77b9ff;#68b3ff;#5eaeff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff;#5badff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="224" y="90" width="9.6" height="22" fill="#6eb9ff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#6eb9ff;#71baff;#7abeff;#87c3ff;#98caff;#aad1ff;#bdd9ff;#cee0ff;#dbe5ff;#e4e8ff;#e7eaff;#e4e8ff;#dbe5ff;#cee0ff;#bdd9ff;#aad1ff;#98caff;#87c3ff;#7abeff;#71baff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff;#6eb9ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="243.2" y="90" width="9.6" height="22" fill="#81c6ff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#81c6ff;#84c7ff;#8bcaff;#96ceff;#a5d3ff;#b5d8ff;#c5deff;#d3e3ff;#dfe7ff;#e6eaff;#e9ebff;#e6eaff;#dfe7ff;#d3e3ff;#c5deff;#b5d8ff;#a5d3ff;#96ceff;#8bcaff;#84c7ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff;#81c6ff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="291.2" y="90" width="9.6" height="22" fill="#afdfff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#afdfff;#b1dfff;#b5e0ff;#bce2ff;#c4e4ff;#cee6ff;#d8e8ff;#e0eaff;#e7ecff;#ecedff;#ededff;#ecedff;#e7ecff;#e0eaff;#d8e8ff;#cee6ff;#c4e4ff;#bce2ff;#b5e0ff;#b1dfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff;#afdfff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="329.6" y="90" width="9.6" height="22" fill="#d2edff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#d2edff;#d3edff;#d5edff;#d8edff;#ddeeff;#e1eeff;#e6eeff;#eaeeff;#eeefff;#f0efff;#f1efff;#f0efff;#eeefff;#eaeeff;#e6eeff;#e1eeff;#ddeeff;#d8edff;#d5edff;#d3edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff;#d2edff" repeatCount="indefinite"/>
-  </rect>
-  <rect x="377.6" y="90" width="9.6" height="22" fill="#ffffff">
-    <animate attributeName="fill" calcMode="discrete" dur="3.28s" values="#ffffff;#ffffff;#fefeff;#fdfcff;#fcfaff;#faf8ff;#f9f6ff;#f7f4ff;#f6f2ff;#f5f1ff;#f5f1ff;#f5f1ff;#f6f2ff;#f7f4ff;#f9f6ff;#faf8ff;#fcfaff;#fdfcff;#fefeff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff" repeatCount="indefinite"/>
-  </rect>
   <rect x="262.4" y="222" width="9.6" height="22" fill="#7c5cd6">
     <animate attributeName="fill" calcMode="discrete" dur="3.48s" values="#7c5cd6;#7f5fd7;#8669da;#9277de;#a18ae3;#b29ee8;#c3b3ee;#d2c5f3;#ded4f7;#e5ddfa;#e8e0fb;#e5ddfa;#ded4f7;#d2c5f3;#c3b3ee;#b29ee8;#a18ae3;#9277de;#8669da;#7f5fd7;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6;#7c5cd6" repeatCount="indefinite"/>
   </rect>
