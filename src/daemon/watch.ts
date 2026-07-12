@@ -36,7 +36,7 @@ export function firstMeaningfulLine(text: string): string | null {
 
 function log(message: string): void {
   const stamp = new Date().toISOString();
-  console.log(`[torlnk watch] ${stamp} ${message}`);
+  console.log(`[ninjabits watch] ${stamp} ${message}`);
 }
 
 async function moveInto(dir: string, sub: string, name: string): Promise<void> {

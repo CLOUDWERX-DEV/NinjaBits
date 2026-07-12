@@ -6,11 +6,49 @@ export type SourceId =
   | "subsplease"
   | "tpb-movies"
   | "tpb-tv"
+  | "tpb-games"
+  | "tpb-apps"
+  | "tpb-music"
+  | "tpb-audio"
+  | "tpb-roms"
+  | "tpb-adult"
+  | "tpb-magazines"
   | "x1337-movies"
   | "x1337-tv"
-  | "bittorrented";
+  | "x1337-games"
+  | "x1337-apps"
+  | "x1337-music"
+  | "x1337-adult"
+  | "x1337-magazines"
+  | "archiveorg-music"
+  | "archiveorg-magazines"
+  | "archiveorg-roms"
+  | "bittorrented"
+  | "bittorrented-music"
+  | "bittorrented-magazines"
+  | "bittorrented-adult"
+  | "bittorrented-other"
+  | "bitsearch-movies"
+  | "bitsearch-tv"
+  | "bitsearch-anime"
+  | "bitsearch-games"
+  | "bitsearch-apps"
+  | "bitsearch-music"
+  | "bitsearch-magazines"
+  | "bitsearch-roms"
+  | "bitsearch-adult";
 
-export type SourceGroup = "Games" | "Movies" | "TV" | "Anime";
+export type SourceGroup =
+  | "Games"
+  | "Movies"
+  | "TV"
+  | "Anime"
+  | "Magazines"
+  | "Applications"
+  | "Music"
+  | "Audio"
+  | "ROMs"
+  | "Adult";
 
 export interface TorrentResult {
   infoHash: string;

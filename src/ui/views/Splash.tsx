@@ -35,7 +35,7 @@ export function Splash() {
         <Logo />
       ) : (
         <Text bold color={COLOR.accent}>
-          torlink
+          NinjaBits
         </Text>
       )}
       <Box marginTop={2}>

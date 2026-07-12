@@ -81,14 +81,14 @@ async function detailInfo(
 
 async function search(
   query: string,
-  cat: "Movies" | "TV",
+  cat: "Movies" | "TV" | "Games" | "Music" | "Apps" | "Anime" | "XXX" | "Other",
   source: SourceId,
   opts: SearchOptions = {},
 ): Promise<TorrentResult[]> {
   const q = query.trim();
   const path = q
     ? `/category-search/${encodeURIComponent(q).replace(/%20/g, "+")}/${cat}/1/`
-    : `/popular-${cat === "Movies" ? "movies" : "tv"}`;
+    : `/popular-${cat.toLowerCase()}`;
 
   let base = "";
   let html = "";
@@ -157,4 +157,49 @@ export const x1337Tv: Source = {
   homepage: "https://1337x.to",
   reportsHealth: true,
   search: (query, opts = {}) => search(query, "TV", "x1337-tv", opts),
+};
+
+export const x1337Games: Source = {
+  id: "x1337-games",
+  label: "1337x",
+  groups: ["Games"],
+  homepage: "https://1337x.to",
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "Games", "x1337-games", opts),
+};
+
+export const x1337Apps: Source = {
+  id: "x1337-apps",
+  label: "1337x",
+  groups: ["Applications"],
+  homepage: "https://1337x.to",
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "Apps", "x1337-apps", opts),
+};
+
+export const x1337Music: Source = {
+  id: "x1337-music",
+  label: "1337x",
+  groups: ["Music"],
+  homepage: "https://1337x.to",
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "Music", "x1337-music", opts),
+};
+
+export const x1337Adult: Source = {
+  id: "x1337-adult",
+  label: "1337x",
+  groups: ["Adult"],
+  homepage: "https://1337x.to",
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "XXX", "x1337-adult", opts),
+};
+
+export const x1337Magazines: Source = {
+  id: "x1337-magazines",
+  label: "1337x",
+  groups: ["Magazines"],
+  homepage: "https://1337x.to",
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "Other", "x1337-magazines", opts),
 };

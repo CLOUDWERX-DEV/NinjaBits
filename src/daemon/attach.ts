@@ -29,7 +29,7 @@ export function tuiCommand(execPath: string, scriptPath: string): string {
 export function runAttach(): never {
   if (!hasTmux()) {
     console.error(
-      "torlink attach needs tmux (for detach/reattach). Install tmux, or just run `torlnk`.",
+      "NinjaBits attach needs tmux (for detach/reattach). Install tmux, or just run `ninjabits`.",
     );
     process.exit(1);
   }

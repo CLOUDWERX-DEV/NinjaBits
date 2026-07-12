@@ -1,10 +1,10 @@
 {
-  "name": "torlnk",
+  "name": "ninjabits",
   "version": "1.4.0",
   "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
   "type": "module",
   "bin": {
-    "torlnk": "./dist/cli.cjs"
+    "ninjabits": "./dist/cli.cjs"
   },
   "files": [
     "dist",

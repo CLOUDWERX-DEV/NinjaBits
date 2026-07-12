@@ -57,19 +57,23 @@ export function mapBittorrentedResults(results: BtResult[], id: SourceId): Torre
   return out;
 }
 
-async function search(query: string, opts: SearchOptions = {}): Promise<TorrentResult[]> {
+async function search(
+  query: string,
+  type: "video" | "audio" | "ebook" | "document" | "other" | "xxx" | null,
+  id: SourceId,
+  opts: SearchOptions = {},
+): Promise<TorrentResult[]> {
   const q = query.trim();
   if (q.length < MIN_QUERY) return [];
 
-  // Video only: keeps the category tabs plain video and structurally excludes
-  // the index's other media types. One request per search.
   const params = new URLSearchParams({
     q,
-    type: "video",
     limit: "50",
     sortBy: "seeders",
     sortOrder: "desc",
   });
+  if (type) params.set("type", type);
+
   const res = await fetchResilient(`${BASE}/api/search/torrents?${params.toString()}`, {
     headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
     signal: opts.signal,
@@ -78,7 +82,7 @@ async function search(query: string, opts: SearchOptions = {}): Promise<TorrentR
   if (!res.ok) throw new HttpError(res.status, `BitTorrented returned ${res.status}`);
 
   const json = (await res.json()) as BtResponse;
-  return mapBittorrentedResults(json.results ?? [], "bittorrented");
+  return mapBittorrentedResults(json.results ?? [], id);
 }
 
 export const bittorrented: Source = {
@@ -87,5 +91,41 @@ export const bittorrented: Source = {
   groups: ["Movies", "TV"],
   homepage: BASE,
   reportsHealth: true,
-  search,
+  search: (query, opts = {}) => search(query, "video", "bittorrented", opts),
+};
+
+export const bittorrentedMusic: Source = {
+  id: "bittorrented-music",
+  label: "BitTorrented",
+  groups: ["Music", "Audio"],
+  homepage: BASE,
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "audio", "bittorrented-music", opts),
+};
+
+export const bittorrentedMagazines: Source = {
+  id: "bittorrented-magazines",
+  label: "BitTorrented",
+  groups: ["Magazines"],
+  homepage: BASE,
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "ebook", "bittorrented-magazines", opts),
+};
+
+export const bittorrentedAdult: Source = {
+  id: "bittorrented-adult",
+  label: "BitTorrented",
+  groups: ["Adult"],
+  homepage: BASE,
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "xxx", "bittorrented-adult", opts),
+};
+
+export const bittorrentedOther: Source = {
+  id: "bittorrented-other",
+  label: "BitTorrented",
+  groups: ["Games", "Applications", "ROMs"],
+  homepage: BASE,
+  reportsHealth: true,
+  search: (query, opts = {}) => search(query, "other", "bittorrented-other", opts),
 };

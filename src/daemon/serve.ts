@@ -132,7 +132,7 @@ function readBody(req: http.IncomingMessage): Promise<{ text: string; tooLarge: 
 }
 
 function log(message: string): void {
-  console.log(`[torlnk serve] ${new Date().toISOString()} ${message}`);
+  console.log(`[ninjabits serve] ${new Date().toISOString()} ${message}`);
 }
 
 export async function runServe(options: ServeOptions = {}): Promise<void> {

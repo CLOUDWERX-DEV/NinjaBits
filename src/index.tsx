@@ -13,7 +13,7 @@ if (cmd.kind === "help") {
 }
 
 if (cmd.kind === "version") {
-  console.log(`torlink v${VERSION}`);
+  console.log(`NinjaBits v${VERSION}`);
   process.exit(0);
 }
 
@@ -48,7 +48,7 @@ if (cmd.kind === "watch") {
   const options = {
     port: cmd.port,
     host: cmd.host,
-    token: cmd.token ?? process.env.TORLINK_API_TOKEN,
+    token: cmd.token ?? process.env.NINJABITS_API_TOKEN,
     downloadDir: cmd.downloadDir,
     seedTimeMs: cmd.seedTimeMs,
     deleteFiles: cmd.deleteFiles,
@@ -59,7 +59,7 @@ if (cmd.kind === "watch") {
   const options = {
     port: cmd.port,
     host: cmd.host,
-    token: cmd.token ?? process.env.TORLINK_FILES_TOKEN,
+    token: cmd.token ?? process.env.NINJABITS_FILES_TOKEN,
     dir: cmd.dir,
   };
   void import("./daemon/files").then(({ runFiles }) => runFiles(options).catch(failHeadless));
@@ -68,8 +68,8 @@ if (cmd.kind === "watch") {
 // Enter the alt-screen and hide the hardware cursor: the TUI draws its own
 // cursor (the search field block, list pointers), so the terminal's should
 // stay hidden. restoreTerminal shows it again on exit.
-process.stdout.write("\x1b[?1049h\x1b[?25l\x1b[22;0t\x1b]0;torlink\x07");
-if (process.platform === "win32") process.title = "torlink";
+process.stdout.write("\x1b[?1049h\x1b[?25l\x1b[22;0t\x1b]0;NinjaBits\x07");
+if (process.platform === "win32") process.title = "NinjaBits";
 
 let restored = false;
 function restoreTerminal(): void {

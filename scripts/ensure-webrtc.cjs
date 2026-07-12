@@ -28,7 +28,7 @@ if (!moduleDir) {
   process.exit(0); // nothing installed, nothing to build
 }
 
-console.error('\ntorlnk: building WebRTC native module from source.\n');
+console.error('\nNinjaBits: building WebRTC native module from source.\n');
 
 try {
   execSync('npx --yes cmake-js build', {
@@ -38,12 +38,12 @@ try {
     timeout: 300000,
   });
 } catch {
-  // Warn but never fail the install: torlink works without WebRTC peers
+  // Warn but never fail the install: NinjaBits works without WebRTC peers
   // (TCP/uTP swarms still connect), so a missing toolchain must not brick
   // `npm install`.
   console.error('');
-  console.error('torlnk: could not build the WebRTC native module.');
-  console.error('torlnk still works; WebRTC peers just stay unavailable.');
+  console.error('NinjaBits: could not build the WebRTC native module.');
+  console.error('NinjaBits still works; WebRTC peers just stay unavailable.');
   console.error('To enable them, install the build tools, then reinstall:');
   console.error('  Fedora:  sudo dnf install cmake gcc-c++ openssl-devel libstdc++-static');
   console.error('  Debian / Ubuntu:  sudo apt install cmake g++ libssl-dev');
