@@ -70,9 +70,7 @@ export function Splash() {
         </Text>
       </Box>
       <Box marginTop={1}>
-        <Text dimColor>
-          v{VERSION}  ·  by <Text color={COLOR.accent} bold>CLOUDWERX LAB</Text>
-        </Text>
+        <Text dimColor>v{VERSION}</Text>
       </Box>
     </Box>
   );
