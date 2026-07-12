@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.4] - 2026-07-12
+
+### Added
+- Documented new SolidTorrents search provider features and capabilities in the README.
+
 ## [1.4.3] - 2026-07-12
 
 ### Added

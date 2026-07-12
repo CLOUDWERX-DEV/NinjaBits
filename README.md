@@ -18,7 +18,7 @@ It is a zero-configuration, terminal-native torrent searcher, downloader, and cl
 
 ## The Arsenal
 
-*   ⚔️ **Stealth Search & Destroy**: Instantly queries multiple public indexers simultaneously. Search across YTS, EZTV, Nyaa, SubsPlease, FitGirl, 1337x, The Pirate Bay, BitSearch, and BitTorrented in one swift strike.
+*   ⚔️ **Stealth Search & Destroy**: Instantly queries multiple public indexers simultaneously. Search across YTS, EZTV, Nyaa, SubsPlease, FitGirl, 1337x, The Pirate Bay, BitSearch, BitTorrented, and SolidTorrents in one swift strike.
 *   📂 **Multi-Category Mastery**: Seamlessly categorized search for Games, Movies, TV, Anime, Applications, Music, Audio, ROMs, Magazines, and Adult.
 *   🎯 **Zero Config, Zero Drama**: No configuration files, no torrent client setup. It works out of the box with standard defaults. Run it instantly via `npx ninjabits`.
 *   💨 **Silent Assassin (Headless Mode)**: Run it in the background as a directory watch daemon, HTTP REST API, or HTTP file streaming server.
@@ -80,16 +80,16 @@ NinjaBits routes your search to targeted providers depending on the category:
 
 | Category | Target Content | Indexers Used |
 | --- | --- | --- |
-| **Games** | Trusted repacks only | FitGirl, TPB, 1337x, BitTorrented, BitSearch |
-| **Movies** | Curated HD encodes | YTS, TPB, 1337x, BitTorrented, BitSearch |
-| **TV** | Series & episodes | EZTV, TPB, 1337x, BitTorrented, BitSearch |
+| **Games** | Trusted repacks only | FitGirl, TPB, 1337x, BitTorrented, BitSearch, SolidTorrents |
+| **Movies** | Curated HD encodes | YTS, TPB, 1337x, BitTorrented, BitSearch, SolidTorrents |
+| **TV** | Series & episodes | EZTV, TPB, 1337x, BitTorrented, BitSearch, SolidTorrents |
 | **Anime** | Subbed & raw anime | Nyaa, SubsPlease, BitSearch |
-| **Magazines** | Comics, eBooks, publications | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
-| **Applications** | Software (Windows, macOS, Linux) | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
-| **Music** | Albums, discographies | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
-| **Audio** | Sound clips, samples, drumkits | TPB, Archive.org, BitTorrented, BitSearch |
-| **ROMs** | Retro console game images | TPB, Archive.org, BitTorrented, BitSearch |
-| **Adult** | Adult videos and pictures | TPB, 1337x, BitTorrented, BitSearch |
+| **Magazines** | Comics, eBooks, publications | TPB, 1337x, Archive.org, BitTorrented, BitSearch, SolidTorrents |
+| **Applications** | Software (Windows, macOS, Linux) | TPB, 1337x, Archive.org, BitTorrented, BitSearch, SolidTorrents |
+| **Music** | Albums, discographies | TPB, 1337x, Archive.org, BitTorrented, BitSearch, SolidTorrents |
+| **Audio** | Sound clips, samples, drumkits | TPB, Archive.org, BitTorrented, BitSearch, SolidTorrents |
+| **ROMs** | Retro console game images | TPB, Archive.org, BitTorrented, BitSearch, SolidTorrents |
+| **Adult** | Adult videos and pictures | TPB, 1337x, BitTorrented, BitSearch, SolidTorrents |
 
 If a provider is offline, the search continues without hanging and displays which host is down.
 
