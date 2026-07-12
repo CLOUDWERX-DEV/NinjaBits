@@ -1,11 +1,6 @@
-<pre align="center">
- _______  .__            __      __________.__  __
- \      \ |__| ____     |__|____ \______   \__|/  |_  ______
- /   |   \|  |/    \    |  \__  \ |    |  _/  \   __\/  ___/
-/    |    \  |   |  \   |  |/ __ \|    |   \  ||  |  \___ \
-\____|__  /__|___|  /\__|  (____  /______  /__||__| /____  >
-        \/        \/\______|    \/       \/              \/
-</pre>
+<p align="center">
+  <img src="preview/splash.svg" alt="NinjaBits, curated torrents straight from your terminal" style="max-width: 832px; width: 100%; height: auto;">
+</p>
 
 <p align="center">
   <b>A sleek, zero-setup terminal torrent search, downloader, and client.</b>
