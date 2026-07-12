@@ -67,6 +67,15 @@ export const SOURCE_STYLE: Record<SourceId, { tag: string; color: string }> = {
   "bitsearch-magazines": { tag: "BS", color: "#a855f7" },
   "bitsearch-roms": { tag: "BS", color: "#a855f7" },
   "bitsearch-adult": { tag: "BS", color: "#a855f7" },
+  "solidtorrents-movies": { tag: "ST", color: "#fb7185" },
+  "solidtorrents-tv": { tag: "ST", color: "#fb7185" },
+  "solidtorrents-games": { tag: "ST", color: "#fb7185" },
+  "solidtorrents-apps": { tag: "ST", color: "#fb7185" },
+  "solidtorrents-music": { tag: "ST", color: "#fb7185" },
+  "solidtorrents-audio": { tag: "ST", color: "#fb7185" },
+  "solidtorrents-roms": { tag: "ST", color: "#fb7185" },
+  "solidtorrents-magazines": { tag: "ST", color: "#fb7185" },
+  "solidtorrents-adult": { tag: "ST", color: "#fb7185" },
 };
 
 // Tolerant lookup: a source id may be absent (a pasted magnet / bare infohash) or

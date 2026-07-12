@@ -46,6 +46,17 @@ import {
   archiveorgRoms,
 } from "./archiveorg";
 import { yts } from "./yts";
+import {
+  solidtorrentsMovies,
+  solidtorrentsTv,
+  solidtorrentsGames,
+  solidtorrentsApps,
+  solidtorrentsMusic,
+  solidtorrentsAudio,
+  solidtorrentsRoms,
+  solidtorrentsMagazines,
+  solidtorrentsAdult,
+} from "./solidtorrents";
 import type { Source, SourceGroup, SourceId } from "./types";
 
 export const SOURCES: readonly Source[] = [
@@ -87,6 +98,15 @@ export const SOURCES: readonly Source[] = [
   bitsearchMagazines,
   bitsearchRoms,
   bitsearchAdult,
+  solidtorrentsMovies,
+  solidtorrentsTv,
+  solidtorrentsGames,
+  solidtorrentsApps,
+  solidtorrentsMusic,
+  solidtorrentsAudio,
+  solidtorrentsRoms,
+  solidtorrentsMagazines,
+  solidtorrentsAdult,
 ];
 
 export const DEFAULT_SOURCE: Source = SOURCES[0]!;

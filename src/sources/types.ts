@@ -36,7 +36,16 @@ export type SourceId =
   | "bitsearch-music"
   | "bitsearch-magazines"
   | "bitsearch-roms"
-  | "bitsearch-adult";
+  | "bitsearch-adult"
+  | "solidtorrents-movies"
+  | "solidtorrents-tv"
+  | "solidtorrents-games"
+  | "solidtorrents-apps"
+  | "solidtorrents-music"
+  | "solidtorrents-audio"
+  | "solidtorrents-roms"
+  | "solidtorrents-magazines"
+  | "solidtorrents-adult";
 
 export type SourceGroup =
   | "Games"

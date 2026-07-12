@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.3] - 2026-07-12
+
+### Added
+- Created a new SolidTorrents search provider integration feeding Movies, TV, Games, Applications, Music, Audio, ROMs, Magazines, and Adult categories. This adds deep access to high-quality audio files, lossless music, sample packs, and VST plugins.
+
 ## [1.4.2] - 2026-07-12
 
 ### Added
