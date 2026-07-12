@@ -10,9 +10,11 @@ export const SPLASH_LOGO_LINES: readonly string[] = [
 export const SPLASH_LOGO_WIDTH = Math.max(...SPLASH_LOGO_LINES.map((l) => [...l].length));
 
 export const COMPACT_LOGO_LINES: readonly string[] = [
-  " _      _   _        _    __    ___   _  _____  __  ",
-  "| |\\ | | | | |\\ |   | |  / /\\  | |_) | |  | |  ( (` ",
-  "|_| \\| |_| |_| \\| \\_|_| /_/--\\ |_|_) |_|  |_|  _)_) ",
+  " _______ __         __         ______ __ __         ",
+  "|    |  |__|.-----.|__|.---.-.|   __ \\__|  |_.-----.",
+  "|       |  ||     ||  ||  _  ||   __ <  |   _|__ --|",
+  "|__|____|__||__|__||  ||___._||______/__|____|_____|",
+  "                  |___|                             ",
 ];
 
 export const COMPACT_LOGO_WIDTH = Math.max(...COMPACT_LOGO_LINES.map((l) => [...l].length));
