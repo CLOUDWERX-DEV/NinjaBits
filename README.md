@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="preview/splash.svg?v=1.5.3" alt="NinjaBits, curated torrents straight from your terminal" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/splash.svg?v=1.5.4" alt="NinjaBits, curated torrents straight from your terminal" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 Finding torrents today is a minefield of spam, fake buttons, redirects, and dead links. **NinjaBits** fixes this. It brings a curated catalog of public media indexers directly into your terminal, with zero configuration. You search, select, and download immediately. The files are yours, saved straight to your downloads directory.
 
 <p align="center">
-  <img src="preview/browse.svg?v=1.5.3" alt="NinjaBits' browse view: the sidebar, the search bar, and merged results from every source" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/browse.svg?v=1.5.4" alt="NinjaBits' browse view: the sidebar, the search bar, and merged results from every source" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
 ## Features
@@ -96,7 +96,7 @@ Active downloads sit up top with their progress, speed, and time left; when one 
 Downloads run in the background while you keep searching, so you can queue up as many as you want. They save to your downloads folder, and the Downloads pane keeps tabs on each one; press `o` anytime to change where that is, or grab one result with `shift+d` to send it somewhere else without touching the default. When something finishes it keeps seeding automatically so the next person can find it too, and the Seeding tab lets you pause or stop that anytime.
 
 <p align="center">
-  <img src="preview/downloads.svg?v=1.5.3" alt="NinjaBits' Downloads pane: live progress on top, recently downloaded below" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/downloads.svg?v=1.5.4" alt="NinjaBits' Downloads pane: live progress on top, recently downloaded below" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
 ---
