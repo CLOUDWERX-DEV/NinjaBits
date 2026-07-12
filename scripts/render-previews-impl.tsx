@@ -79,7 +79,7 @@ function makeStore(
 ): Store {
   const noop = (): void => {};
   return {
-    config: { downloadDir: "~/Downloads/torlink" } as Config,
+    config: { downloadDir: "~/Downloads/NinjaBits" } as Config,
     setConfig: noop,
     queue: fakeQueue(items, history, seeds),
     view: "browser",
@@ -129,7 +129,7 @@ function save(
   }
   writeFileSync(
     join(OUT_DIR, `${name}.svg`),
-    ansiToSvg(frame, { cols: COLS, title: "torlink", ...extra }),
+    ansiToSvg(frame, { cols: COLS, title: "NinjaBits", ...extra }),
   );
   console.log(`preview/${name}.svg`);
 }
