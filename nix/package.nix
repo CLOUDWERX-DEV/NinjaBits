@@ -11,7 +11,7 @@
 
 buildNpmPackage (finalAttrs: {
   pname = "ninjabits";
-  version = "1.4.0";
+  version = "1.4.1";
   __structuredAttrs = true;
   strictDeps = true;
 

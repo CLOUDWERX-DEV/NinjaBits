@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.1] - 2026-07-12
+
+### Added
+- Added new top-performing, high-uptime public trackers (zer0day.ch, ducks.party, qu.ax, publictracker.xyz, etc.) to improve peer discovery and download speeds.
+
+### Changed
+- Cleaned up all legacy references to torlink/torlnk across the codebase, tests, Nix configurations, and GitHub metadata.
+
 ## [1.4.0] - 2026-07-12
 
 ### Added

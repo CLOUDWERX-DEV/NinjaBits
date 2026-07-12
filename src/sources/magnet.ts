@@ -1,4 +1,5 @@
 const TRACKERS = [
+  // Top-Tier UDP Trackers (Fastest peer discovery)
   "udp://tracker.opentrackr.org:1337/announce",
   "udp://open.demonii.com:1337/announce",
   "udp://tracker.openbittorrent.com:6969/announce",
@@ -6,12 +7,20 @@ const TRACKERS = [
   "udp://exodus.desync.com:6969/announce",
   "udp://open.stealth.si:80/announce",
   "udp://tracker.dler.org:6969/announce",
-  // HTTP(S) endpoints so peer discovery still works where UDP is blocked or
-  // mangled (VPN exit nodes, strict NATs): DHT and udp:// are both UDP.
+  "udp://zer0day.ch:1337/announce",
+  "udp://tracker.publictracker.xyz:6969/announce",
+  "udp://tracker.ducks.party:1984/announce",
+  "udp://tracker.qu.ax:6969/announce",
+  "udp://open.demonoid.ch:6969/announce",
+  "udp://tracker.tryhackx.org:6969/announce",
+
+  // HTTP(S) fallback endpoints (essential if UDP is blocked by a firewalled network / VPN)
   "http://tracker.opentrackr.org:1337/announce",
   "http://tracker.openbittorrent.com:80/announce",
   "http://tracker.dler.org:6969/announce",
   "https://tracker.tamersunion.org:443/announce",
+  "https://ht.therarbg.to:443/announce",
+  "https://banananetwork.qzz.io:443/announce",
 ];
 
 export function buildMagnet(infoHash: string, name: string): string {
