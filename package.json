@@ -44,15 +44,15 @@
     "zero-setup",
     "fitgirl"
   ],
-  "author": "bairon",
+  "author": "CLOUDWERX LAB",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baairon/torlink.git"
+    "url": "git+https://github.com/CLOUDWERX-DEV/NinjaBits.git"
   },
-  "homepage": "https://torlink.bairon.dev",
+  "homepage": "https://github.com/CLOUDWERX-DEV/NinjaBits",
   "bugs": {
-    "url": "https://github.com/baairon/torlink/issues"
+    "url": "https://github.com/CLOUDWERX-DEV/NinjaBits/issues"
   },
   "publishConfig": {
     "access": "public"
