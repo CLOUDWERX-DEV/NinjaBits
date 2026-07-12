@@ -142,7 +142,7 @@ save(
   "splash",
   makeStore({ view: "splash", region: "content" }),
   <Box height={18} flexDirection="column" justifyContent="center" alignItems="center" width={COLS}>
-    <Logo />
+    <Logo type="splash" />
     <Box marginTop={2}>
       <Text color={COLOR.text}>A curated, terminal-native torrent downloader.</Text>
     </Box>

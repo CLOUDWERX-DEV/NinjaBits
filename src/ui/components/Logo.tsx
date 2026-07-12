@@ -1,5 +1,10 @@
 import { Box, Text } from "ink";
-import { LOGO_LINES, LOGO_WIDTH } from "../logo";
+import {
+  SPLASH_LOGO_LINES,
+  SPLASH_LOGO_WIDTH,
+  COMPACT_LOGO_LINES,
+  COMPACT_LOGO_WIDTH,
+} from "../logo";
 
 type RGB = readonly [red: number, green: number, blue: number];
 
@@ -50,17 +55,24 @@ function rgbToHex([red, green, blue]: RGB): string {
   return `#${c(red)}${c(green)}${c(blue)}`;
 }
 
-export function Logo() {
+interface LogoProps {
+  type?: "splash" | "compact";
+}
+
+export function Logo({ type = "compact" }: LogoProps) {
+  const lines = type === "splash" ? SPLASH_LOGO_LINES : COMPACT_LOGO_LINES;
+  const width = type === "splash" ? SPLASH_LOGO_WIDTH : COMPACT_LOGO_WIDTH;
+
   return (
     <Box flexDirection="column">
-      {LOGO_LINES.map((line, row) => {
+      {lines.map((line, row) => {
         const chars = [...line];
         return (
           <Box key={row}>
             {chars.map((ch, i) => {
               if (ch === " ") return <Text key={i}> </Text>;
 
-              const position = LOGO_WIDTH <= 1 ? 0 : i / (LOGO_WIDTH - 1);
+              const position = width <= 1 ? 0 : i / (width - 1);
               const hexColor = rgbToHex(colorAt(position));
 
               return (

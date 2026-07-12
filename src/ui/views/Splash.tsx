@@ -1,7 +1,7 @@
 import { Box, Text, useInput, useStdin } from "ink";
 import { Logo } from "../components/Logo";
 import { SearchBar } from "../components/SearchBar";
-import { LOGO_WIDTH } from "../logo";
+import { SPLASH_LOGO_WIDTH } from "../logo";
 import { useStore } from "../store";
 import { sourcesByGroup } from "../../sources/registry";
 import { COLOR, ICON } from "../theme";
@@ -21,7 +21,7 @@ export function Splash() {
     { isActive: isRawModeSupported },
   );
 
-  const showLogo = cols >= LOGO_WIDTH + 2;
+  const showLogo = cols >= SPLASH_LOGO_WIDTH + 2;
   const barWidth = Math.max(24, Math.min(cols - 6, 62));
 
   return (
@@ -32,7 +32,7 @@ export function Splash() {
       alignItems="center"
     >
       {showLogo ? (
-        <Logo />
+        <Logo type="splash" />
       ) : (
         <Text bold color={COLOR.accent}>
           NinjaBits
