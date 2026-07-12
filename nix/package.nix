@@ -10,14 +10,14 @@
 }:
 
 buildNpmPackage (finalAttrs: {
-  pname = "torlink";
+  pname = "ninjabits";
   version = "1.4.0";
   __structuredAttrs = true;
   strictDeps = true;
 
   src = fetchFromGitHub {
-    owner = "baairon";
-    repo = "torlink";
+    owner = "CLOUDWERX-DEV";
+    repo = "NinjaBits";
     tag = "v${finalAttrs.version}";
     hash = "sha256-KeszeV9atSvaA9s7iDCl+Q1eDMSx7flnQuBE8t49IPY=";
   };
@@ -42,8 +42,8 @@ buildNpmPackage (finalAttrs: {
   # add wl-copy and xclip to nix readeable path
   postInstall = ''
     tar -xzf ${finalAttrs.nodeDatachannelPrebuilt} \
-      -C $out/lib/node_modules/torlnk/node_modules/node-datachannel
-      wrapProgram $out/bin/torlnk \
+      -C $out/lib/node_modules/ninjabits/node_modules/node-datachannel
+      wrapProgram $out/bin/ninjabits \
         --prefix PATH : ${
           lib.makeBinPath [
             wl-clipboard
@@ -53,12 +53,12 @@ buildNpmPackage (finalAttrs: {
   '';
 
   meta = {
-    description = "Torlink is a torrent finder that lives in your terminal, with zero setup and nothing to configure.";
-    homepage = "https://github.com/baairon/torlink";
-    changelog = "https://github.com/baairon/torlink/releases/tag/v${finalAttrs.src.tag}";
+    description = "Search & download torrents in total stealth—like a Ninja.";
+    homepage = "https://github.com/CLOUDWERX-DEV/NinjaBits";
+    changelog = "https://github.com/CLOUDWERX-DEV/NinjaBits/releases/tag/v${finalAttrs.src.tag}";
     license = lib.licenses.mit;
     maintainers = with lib.maintainers; [ ghastrum ];
-    mainProgram = "torlnk";
+    mainProgram = "ninjabits";
     platforms = lib.platforms.linux;
   };
 })

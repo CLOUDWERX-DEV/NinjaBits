@@ -20,7 +20,7 @@ function fakeRuntime(dir: string, has = false): { runtime: Runtime; add: ReturnT
 describe("addInput", () => {
   let dir: string;
   beforeEach(async () => {
-    dir = await fs.mkdtemp(path.join(os.tmpdir(), "torlink-rt-"));
+    dir = await fs.mkdtemp(path.join(os.tmpdir(), "ninjabits-rt-"));
   });
   afterEach(async () => {
     await fs.rm(dir, { recursive: true, force: true }).catch(() => {});

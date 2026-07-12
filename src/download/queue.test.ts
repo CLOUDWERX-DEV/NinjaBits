@@ -48,7 +48,7 @@ describe("DownloadQueue seeding", () => {
 
   it("exports cached .torrent metadata for a history item", async () => {
     const q = new DownloadQueue();
-    const outDir = await fs.mkdtemp(path.join(os.tmpdir(), "torlink-queue-export-"));
+    const outDir = await fs.mkdtemp(path.join(os.tmpdir(), "ninjabits-queue-export-"));
     const item = h({ id: "h5", name: "Some/Torrent", dir: outDir });
     try {
       q.restoreHistory([item]);

@@ -11,7 +11,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { logsDir } from "../config/paths";
 
-const MARKER = "TORLINK_DAEMONIZED";
+const MARKER = "NINJABITS_DAEMONIZED";
 
 export function logPathFor(name: string): string {
   return path.join(logsDir, `${name}.log`);
@@ -38,7 +38,7 @@ export function daemonize(name: string): void {
   child.unref();
   if (child.pid) fs.writeFileSync(pidPath, `${child.pid}\n`);
 
-  console.log(`torlink ${name} daemon started (pid ${child.pid}).`);
+  console.log(`NinjaBits ${name} daemon started (pid ${child.pid}).`);
   console.log(`  logs: ${logPath}`);
   console.log(`  stop: kill ${child.pid}   (or: kill $(cat ${pidPath}))`);
   process.exit(0);

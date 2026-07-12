@@ -30,7 +30,7 @@ if (cmd.kind === "attach") {
 
 // Headless subcommands: run the download queue with no terminal UI (for
 // seedboxes and servers). Kept above the alt-screen setup below — these paths
-// never touch the TUI. Each is dynamically imported so a plain `torlnk` launch
+// never touch the TUI. Each is dynamically imported so a plain `ninjabits` launch
 // pays nothing for them.
 function failHeadless(err: unknown): never {
   console.error(err instanceof Error ? err.message : String(err));

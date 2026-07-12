@@ -19,7 +19,7 @@ describe("torrent metadata export", () => {
 
   it("copies cached .torrent metadata into the requested folder", async () => {
     const id = `export-${Date.now()}`;
-    const outDir = await fs.mkdtemp(path.join(os.tmpdir(), "torlink-export-"));
+    const outDir = await fs.mkdtemp(path.join(os.tmpdir(), "ninjabits-export-"));
     const data = new Uint8Array([1, 2, 3, 4]);
     try {
       await saveTorrentMeta(id, data);
@@ -35,7 +35,7 @@ describe("torrent metadata export", () => {
   });
 
   it("returns null when metadata has not arrived yet", async () => {
-    const outDir = await fs.mkdtemp(path.join(os.tmpdir(), "torlink-export-missing-"));
+    const outDir = await fs.mkdtemp(path.join(os.tmpdir(), "ninjabits-export-missing-"));
     try {
       await expect(exportTorrentMeta("missing", "Missing", outDir)).resolves.toBeNull();
     } finally {

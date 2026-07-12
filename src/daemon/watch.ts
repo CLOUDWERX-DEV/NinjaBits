@@ -1,4 +1,4 @@
-// Headless watch-folder mode: torlnk watches a directory and downloads any
+// Headless watch-folder mode: ninjabits watches a directory and downloads any
 // torrent dropped into it. This is the "blackhole" pattern torrent clients use
 // so other tools (a seedbox web app, a script, curl) can hand off a torrent by
 // writing a file — no keypress, no TUI. Drop a `.torrent` file, or a `.magnet`

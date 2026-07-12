@@ -33,8 +33,8 @@ describe("normalizeDownloadDir", () => {
   });
 
   it("normalizes a tilde path into a usable directory", () => {
-    expect(normalizeDownloadDir("~/Downloads/torlink", HOME)).toBe(
-      path.normalize(path.join(HOME, "Downloads", "torlink")),
+    expect(normalizeDownloadDir("~/Downloads/ninjabits", HOME)).toBe(
+      path.normalize(path.join(HOME, "Downloads", "ninjabits")),
     );
   });
 });

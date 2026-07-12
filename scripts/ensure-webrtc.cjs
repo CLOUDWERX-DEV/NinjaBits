@@ -4,7 +4,7 @@ const { execSync } = require('node:child_process');
 const { existsSync } = require('node:fs');
 const { resolve } = require('node:path');
 
-// During postinstall the CWD is always torlink's root directory.
+// During postinstall the CWD is always ninjabits' root directory.
 // Check whether the native module actually loads; if prebuild-install
 // succeeded on its own (Node 18/20) there is nothing to do. require()
 // resolves through any node_modules layout, so this check is layout-proof.
@@ -50,6 +50,6 @@ try {
   console.error('  macOS:   xcode-select --install');
   console.error('  Windows: install CMake and Visual Studio Build Tools');
   console.error('');
-  console.error('https://github.com/baairon/torlink/issues/60');
+  console.error('https://github.com/CLOUDWERX-DEV/NinjaBits/issues');
 }
 process.exit(0);

@@ -44,8 +44,8 @@ describe("processFile", () => {
   let runtime: Runtime;
 
   beforeEach(async () => {
-    dir = await fs.mkdtemp(path.join(os.tmpdir(), "torlink-watch-"));
-    downloadDir = await fs.mkdtemp(path.join(os.tmpdir(), "torlink-dl-"));
+    dir = await fs.mkdtemp(path.join(os.tmpdir(), "ninjabits-watch-"));
+    downloadDir = await fs.mkdtemp(path.join(os.tmpdir(), "ninjabits-dl-"));
     add = vi.fn();
     runtime = {
       queue: { has: () => false, add } as unknown as Runtime["queue"],

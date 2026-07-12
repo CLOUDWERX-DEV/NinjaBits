@@ -3,7 +3,7 @@ import { buildMagnet } from "./magnet";
 import type { SearchOptions, Source, SourceId, TorrentResult } from "./types";
 
 // BitTorrented is a general index (its own library plus a large DHT crawl).
-// torlink takes its video type only and feeds it to Movies and TV. Anime stays
+// NinjaBits takes its video type only and feeds it to Movies and TV. Anime stays
 // with its dedicated sources (the API can't tell anime from any other video)
 // and Games stays FitGirl's alone. Its JSON API returns real swarm counts, so
 // reportsHealth is true.
@@ -33,7 +33,7 @@ function toUnixSeconds(iso: string | undefined): number | undefined {
   return Number.isNaN(ms) ? undefined : Math.floor(ms / 1000);
 }
 
-// Map the API rows to torlink results. Pure and exported so the mapping is tested
+// Map the API rows to NinjaBits results. Pure and exported so the mapping is tested
 // without a live request. Rows without a valid 40-char info hash are dropped (a
 // magnet needs one).
 export function mapBittorrentedResults(results: BtResult[], id: SourceId): TorrentResult[] {

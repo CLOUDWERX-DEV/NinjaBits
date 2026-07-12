@@ -36,9 +36,9 @@ describe("openFolder", () => {
 
       const { openFolder } = await import("./openFolder");
 
-      await expect(openFolder("/home/me/Downloads/torlink")).resolves.toBe(true);
-      expect(spawn).toHaveBeenCalledWith("xdg-open", ["/home/me/Downloads/torlink"]);
-      expect(spawn).toHaveBeenCalledWith("gio", ["open", "/home/me/Downloads/torlink"]);
+      await expect(openFolder("/home/me/Downloads/ninjabits")).resolves.toBe(true);
+      expect(spawn).toHaveBeenCalledWith("xdg-open", ["/home/me/Downloads/ninjabits"]);
+      expect(spawn).toHaveBeenCalledWith("gio", ["open", "/home/me/Downloads/ninjabits"]);
     } finally {
       restore();
     }
@@ -52,8 +52,8 @@ describe("openFolder", () => {
 
       const { openFolder } = await import("./openFolder");
 
-      await expect(openFolder("C:\\Users\\me\\Downloads\\torlink")).resolves.toBe(true);
-      expect(spawn).toHaveBeenCalledWith("explorer", ["C:\\Users\\me\\Downloads\\torlink"]);
+      await expect(openFolder("C:\\Users\\me\\Downloads\\ninjabits")).resolves.toBe(true);
+      expect(spawn).toHaveBeenCalledWith("explorer", ["C:\\Users\\me\\Downloads\\ninjabits"]);
     } finally {
       restore();
     }

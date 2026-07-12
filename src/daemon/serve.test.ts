@@ -45,7 +45,7 @@ describe("handleApi", () => {
   let runtime: Runtime;
 
   beforeEach(async () => {
-    dir = await fs.mkdtemp(path.join(os.tmpdir(), "torlink-serve-"));
+    dir = await fs.mkdtemp(path.join(os.tmpdir(), "ninjabits-serve-"));
     add = vi.fn();
     runtime = {
       queue: {

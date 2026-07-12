@@ -179,7 +179,7 @@ export async function runFiles(options: FilesOptions = {}): Promise<void> {
   if (!LOOPBACK_HOSTS.has(host) && !token) {
     console.error(
       `error: refusing to bind ${host} without a token. Pass --token <secret> ` +
-        `(or set TORLINK_FILES_TOKEN), or bind 127.0.0.1.`,
+        `(or set NINJABITS_FILES_TOKEN), or bind 127.0.0.1.`,
     );
     process.exit(1);
     return;

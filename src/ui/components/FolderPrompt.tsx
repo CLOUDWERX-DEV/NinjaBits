@@ -47,7 +47,7 @@ export function FolderPrompt({
           <Box flexGrow={1} minWidth={0}>
             <TextField
               defaultValue={value}
-              placeholder="~/Downloads/torlink"
+              placeholder="~/Downloads/NinjaBits"
               onSubmit={onSubmit}
             />
           </Box>

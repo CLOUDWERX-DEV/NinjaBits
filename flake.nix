@@ -1,5 +1,5 @@
 {
-  description = "Torlink is a torrent finder that lives in your terminal, with zero setup and nothing to configure.";
+  description = "Search & download torrents in total stealth—like a Ninja.";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -26,7 +26,7 @@
         }
       );
       overlays.default = final: prev: {
-        torlink = final.callPackage ./nix/package.nix { };
+        ninjabits = final.callPackage ./nix/package.nix { };
       };
 
     };
