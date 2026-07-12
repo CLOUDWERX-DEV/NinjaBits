@@ -39,7 +39,7 @@ export function Splash() {
         </Text>
       )}
       <Box marginTop={2}>
-        <Text color={COLOR.text}>A curated, terminal-native torrent downloader.</Text>
+        <Text color={COLOR.text}>Search & download torrents in total stealth—like a Ninja.</Text>
       </Box>
       <Box flexDirection="column" alignItems="center">
         <Text dimColor>{line1}</Text>

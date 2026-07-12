@@ -1,157 +1,167 @@
 <p align="center">
-  <img src="preview/splash.svg?v=1.6.6" alt="NinjaBits, curated torrents straight from your terminal" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/splash.svg?v=1.6.6" alt="NinjaBits" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <b>A sleek, zero-setup terminal torrent search, downloader, and client.</b>
+  <b>Search & download torrents in total stealth—like a Ninja.</b>
 </p>
 
 ---
 
-Finding torrents today is a minefield of spam, fake buttons, redirects, and dead links. **NinjaBits** fixes this. It brings a curated catalog of public media indexers directly into your terminal, with zero configuration. You search, select, and download immediately. The files are yours, saved straight to your downloads directory.
+Finding torrents today is a cesspool of spam, malicious redirects, fake download buttons, and annoying popups. **NinjaBits** slices through the noise. 
+
+It is a zero-configuration, terminal-native torrent searcher, downloader, and client built to run in total stealth. No browser tabs. No ads. No malware traps. Just pure torrent search and instant retrieval straight from your command line.
 
 <p align="center">
-  <img src="preview/browse.svg?v=1.6.6" alt="NinjaBits' browse view: the sidebar, the search bar, and merged results from every source" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/browse.svg?v=1.6.6" alt="NinjaBits Browse View" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
-## Features
+## The Arsenal
 
-- ⚡ **Zero Configuration**: No complex settings, no setup. Just start and run.
-- 🎨 **Sleek TUI**: Terminal User Interface built with React (Ink), styled in a premium slate/blue theme.
-- 📂 **Multi-Category Coverage**: Games, Movies, TV, Anime, Applications (Windows/Linux/Mac), Music, Audio (samples/drumkits), ROMs, Magazines, and Adult.
-- 🌐 **Public Providers**: Curated indexers including **The Pirate Bay**, **1337x**, **YTS**, **EZTV**, **Nyaa**, **SubsPlease**, **FitGirl**, and **Internet Archive (archive.org)**.
-- ⚙️ **Headless Capabilities**: Run as a watch-folder daemon, HTTP server with REST APIs, or range-aware HTTP stream files server.
-- 🧵 **Tmux Integration**: Persistent background runs that you can attach/detach via ssh anytime.
+*   ⚔️ **Stealth Search & Destroy**: Instantly queries multiple public indexers simultaneously. Search across YTS, EZTV, Nyaa, SubsPlease, FitGirl, 1337x, The Pirate Bay, BitSearch, and BitTorrented in one swift strike.
+*   📂 **Multi-Category Mastery**: Seamlessly categorized search for Games, Movies, TV, Anime, Applications, Music, Audio, ROMs, Magazines, and Adult.
+*   🎯 **Zero Config, Zero Drama**: No configuration files, no torrent client setup. It works out of the box with standard defaults. Run it instantly via `npx ninjabits`.
+*   💨 **Silent Assassin (Headless Mode)**: Run it in the background as a directory watch daemon, HTTP REST API, or HTTP file streaming server.
+*   🧵 **Tmux Integration**: Persistent background runs that you can attach or detach via SSH anytime using `attach`.
 
 ---
 
-## Get started
+## Quick Start
 
-NinjaBits can be installed globally and run anywhere:
-
-### 1. Global Installation (Recommended)
-
-```sh
-npm install -g ninjabits
-```
-
-Once installed, just run:
-```sh
-ninjabits
-```
-
-### 2. Run with npx (Instant launch)
+You don't even need to install it to start searching. Just run:
 
 ```sh
 npx ninjabits
 ```
 
-You can also pass magnet links or torrent paths directly:
+### Global Installation (Recommended)
+
+To run NinjaBits anywhere instantly:
+
+```sh
+npm install -g ninjabits
+```
+
+Once installed, just launch it:
+```sh
+ninjabits
+```
+
+### Direct Target Launch
+
+You can also pass magnets or local torrent files directly on startup:
 ```sh
 ninjabits "magnet:?xt=urn:btih:..."
-ninjabits path/to/file.torrent
+ninjabits path/to/game.torrent
 ```
 
 ---
 
-## Navigation & Controls
+## Keyboard Controls
 
-From the main screen, navigation is keyboard-driven:
-- **Arrows / `j`, `k`**: Move selection.
-- **`Enter`**: Submit search or view details.
-- **`d`**: Download to default directory (`Downloads/NinjaBits`).
-- **`Shift + d`**: Download to a custom directory.
-- **`y`**: Copy magnet link to system clipboard.
-- **`o`**: Change default download path.
-- **`p`**: Pause/resume download or seeding.
-- **`?`**: Toggle help cheatsheet overlay.
+Navigate the interface entirely with your keyboard:
+
+| Key | Action |
+| --- | --- |
+| **Arrows / `j`, `k`** | Move selection |
+| **`Enter`** | Search / View torrent details |
+| **`d`** | Download instantly to default folder (`Downloads/NinjaBits`) |
+| **`Shift + d`** | Choose custom target folder for this download |
+| **`y`** | Copy magnet link to system clipboard |
+| **`o`** | Change default download folder path |
+| **`p`** | Pause/resume download or seed item |
+| **`?`** | Toggle cheatsheet overlay |
 
 ---
 
-## Content & Sources
+## Content & Indexers
 
-NinjaBits groups results into clean navigation categories:
+NinjaBits routes your search to targeted providers depending on the category:
 
-| Category | Target Content | Sources |
+| Category | Target Content | Indexers Used |
 | --- | --- | --- |
-| **Games** | PC repacks and releases | FitGirl, TPB, 1337x, BitTorrented, BitSearch |
+| **Games** | Trusted repacks only | FitGirl, TPB, 1337x, BitTorrented, BitSearch |
 | **Movies** | Curated HD encodes | YTS, TPB, 1337x, BitTorrented, BitSearch |
-| **TV** | Episodes and series | EZTV, TPB, 1337x, BitTorrented, BitSearch |
-| **Anime** | Subs and raws | Nyaa, SubsPlease, BitSearch |
-| **Magazines** | Comics, eBooks, and publications | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
-| **Applications** | Windows, macOS, and Linux software | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
-| **Music** | Albums, tracks, and discographies | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
-| **Audio** | Sound clips, sample packs, and drumkits | TPB, Archive.org, BitTorrented, BitSearch |
+| **TV** | Series & episodes | EZTV, TPB, 1337x, BitTorrented, BitSearch |
+| **Anime** | Subbed & raw anime | Nyaa, SubsPlease, BitSearch |
+| **Magazines** | Comics, eBooks, publications | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
+| **Applications** | Software (Windows, macOS, Linux) | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
+| **Music** | Albums, discographies | TPB, 1337x, Archive.org, BitTorrented, BitSearch |
+| **Audio** | Sound clips, samples, drumkits | TPB, Archive.org, BitTorrented, BitSearch |
 | **ROMs** | Retro console game images | TPB, Archive.org, BitTorrented, BitSearch |
 | **Adult** | Adult videos and pictures | TPB, 1337x, BitTorrented, BitSearch |
 
-If a provider is down, the search moves on without hanging and displays which host is currently offline.
+If a provider is offline, the search continues without hanging and displays which host is down.
 
 ---
 
-## Your downloads
+## Managing Downloads
 
-Active downloads sit up top with their progress, speed, and time left; when one finishes it drops into Recently downloaded just below, so the list stays tidy. Everything's still there when you come back, and anything interrupted picks up where it left off.
+Active downloads sit at the top of the pane with live progress, speed, and ETA. Completed downloads drop into the **Recently downloaded** list below to keep things clean. Interrupted downloads resume automatically when you restart.
 
-Downloads run in the background while you keep searching, so you can queue up as many as you want. They save to your downloads folder, and the Downloads pane keeps tabs on each one; press `o` anytime to change where that is, or grab one result with `shift+d` to send it somewhere else without touching the default. When something finishes it keeps seeding automatically so the next person can find it too, and the Seeding tab lets you pause or stop that anytime.
+Downloads seed back to the network automatically. You can pause, resume, or stop seeding any item in the **Seeding** panel.
 
 <p align="center">
-  <img src="preview/downloads.svg?v=1.6.6" alt="NinjaBits' Downloads pane: live progress on top, recently downloaded below" style="max-width: 832px; width: 100%; height: auto;">
+  <img src="preview/downloads.svg?v=1.6.6" alt="NinjaBits Downloads View" style="max-width: 832px; width: 100%; height: auto;">
 </p>
 
 ---
 
 ## Headless Mode (Servers & Seedboxes)
 
-NinjaBits can run headlessly as a background service:
+Run NinjaBits headlessly behind the scenes:
 
-- **Watch Mode**: Downloads anything dropped into a watched directory.
-  ```sh
-  ninjabits watch /path/to/watch --to /path/to/downloads --daemon
-  ```
-- **Serve Mode**: Starts a local REST API (POST `/add`, GET `/downloads`) on port `9161` to receive magnets.
-  ```sh
-  ninjabits serve --port 9161 --token secret --daemon
-  ```
-- **Files Mode**: Serves your downloaded files over a range-aware, read-only HTTP server on port `9160` (perfect for streaming to VLC or browser).
-  ```sh
-  ninjabits files --dir /path/to/downloads --port 9160 --daemon
-  ```
-
----
-
-## Developer Setup
-
-To work on NinjaBits locally:
-
-1. Clone the repository and install dependencies:
-   ```sh
-   git clone https://github.com/CLOUDWERX-DEV/NinjaBits
-   cd NinjaBits
-   npm install
-   ```
-2. Run development build (hot reloading):
-   ```sh
-   npm run dev
-   ```
-3. Run test suites and verify:
-   ```sh
-   npm test
-   npm run typecheck
-   ```
-4. Build production bundle:
-   ```sh
-   npm run build
-   ```
+*   **Watch Directory**: Automatically download torrents/magnets dropped in a folder:
+    ```sh
+    ninjabits watch /path/to/watch --to /path/to/downloads --daemon
+    ```
+*   **API Server**: Receive magnets remotely over a secure HTTP REST API on port `9161`:
+    ```sh
+    ninjabits serve --port 9161 --token secret --daemon
+    ```
+*   **Files Streamer**: Serve completed downloads over a range-aware, read-only HTTP server on port `9160` (perfect for streaming to VLC or browser):
+    ```sh
+    ninjabits files --dir /path/to/downloads --port 9160 --daemon
+    ```
 
 ---
 
-## Acknowledgements & Credits
+## Development
 
-NinjaBits is a fork of the excellent [torlink](https://github.com/baairon/torlink) project created by [bairon](https://github.com/baairon). We are extremely grateful to bairon and all original contributors for providing the solid terminal framework, WebTorrent integrations, and elegant design patterns that made this project possible.
+To set up and run NinjaBits locally:
+
+1.  Clone the repository and install dependencies:
+    ```sh
+    git clone https://github.com/CLOUDWERX-DEV/NinjaBits
+    cd NinjaBits
+    npm install
+    ```
+2.  Start the development build with hot reloading:
+    ```sh
+    npm run dev
+    ```
+3.  Run tests and verify typings:
+    ```sh
+    npm test
+    npm run typecheck
+    ```
+4.  Build the production bundle:
+    ```sh
+    npm run build
+    ```
 
 ---
 
-## Privacy & Network
+## Credits & Acknowledgements
 
-All torrent downloads happen directly over raw TCP/UDP P2P swarms (and WebRTC where available). No central servers act as middlemen. When downloads finish, they automatically seed back to the swarm by default. You can pause or adjust seeding configurations anytime in the **Seeding** panel. Always protect your network privacy with a VPN when accessing public P2P networks.
+NinjaBits is a hardened fork of the original [torlink](https://github.com/baairon/torlink) project created by [bairon](https://github.com/baairon). Huge respect to the original authors for laying down the solid terminal framework and elegant WebTorrent/Ink integration patterns.
+
+---
+
+## Privacy & Seeding Honor Code
+
+Your files stay entirely on your disk. No central middleman server routes your traffic; you speak directly to the torrent swarm. 
+
+P2P networks only work because people share. Once your download finishes, keep seeding by default. Share back, don't be a leech. If you need to stop, open the Seeding tab and press `p` to pause any item. 
+
+Built by CLOUDWERX LAB. Support our work at [Buy Me A Coffee](https://buymeacoffee.com/cloudwerxl3).
