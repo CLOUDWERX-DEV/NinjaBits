@@ -11,7 +11,7 @@
 
 buildNpmPackage (finalAttrs: {
   pname = "ninjabits";
-  version = "1.4.1";
+  version = (builtins.fromJSON (builtins.readFile ../package.json)).version;
   __structuredAttrs = true;
   strictDeps = true;
 
