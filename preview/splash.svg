@@ -164,8 +164,8 @@
     <text x="704" y="150" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#fafdff" font-weight="600">▒</text>
     <text x="713.6" y="150" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#ffffff" font-weight="600">░</text>
     <text x="195.2" y="216" textLength="441.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#f8fafc">A curated, terminal-native torrent downloader.</text>
-    <text x="41.6" y="238" textLength="739.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill-opacity="0.55">games  ·  movies  ·  tv  ·  anime  ·  magazines  ·  applications  ·  music  ·</text>
-    <text x="41.6" y="260" textLength="230.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill-opacity="0.55">audio  ·  roms  ·  adult</text>
+    <text x="60.8" y="238" textLength="710.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill-opacity="0.55">games  ·  movies  ·  tv  ·  anime  ·  magazines  ·  applications  ·  music</text>
+    <text x="300.8" y="260" textLength="230.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill-opacity="0.55">audio  ·  roms  ·  adult</text>
     <text x="118.4" y="304" textLength="19.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#60a5fa">╭─</text>
     <text x="147.2" y="304" textLength="57.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#60a5fa" font-weight="600">Search</text>
     <text x="214.4" y="304" textLength="499.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#60a5fa">───────────────────────────────────────────────────╮</text>

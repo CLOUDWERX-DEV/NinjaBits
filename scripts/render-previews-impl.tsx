@@ -134,9 +134,9 @@ function save(
   console.log(`preview/${name}.svg`);
 }
 
-const CATEGORIES = sourcesByGroup()
-  .map((g) => g.group.toLowerCase())
-  .join(`  ${ICON.dot}  `);
+const groups = sourcesByGroup().map((g) => g.group.toLowerCase());
+const line1 = groups.slice(0, 7).join(`  ${ICON.dot}  `);
+const line2 = groups.slice(7).join(`  ${ICON.dot}  `);
 
 save(
   "splash",
@@ -146,8 +146,9 @@ save(
     <Box marginTop={2}>
       <Text color={COLOR.text}>A curated, terminal-native torrent downloader.</Text>
     </Box>
-    <Box>
-      <Text dimColor>{CATEGORIES}</Text>
+    <Box flexDirection="column" alignItems="center">
+      <Text dimColor>{line1}</Text>
+      <Text dimColor>{line2}</Text>
     </Box>
     <Box marginTop={1} width={62}>
       <SearchBar width={62} value="" editing placeholder="Search or paste a magnet link…" onSubmit={() => {}} />
